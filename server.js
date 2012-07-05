@@ -50,7 +50,8 @@
 	}
 
 
-	var isStart = allRight = false;
+	var isStart = false;
+	var allRight = false;
 	var players = [];
 	//var playersNum = [];
 	var delay = [];
