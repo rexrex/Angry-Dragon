@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Angry Dragon</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Rex" />
+		<link href="./css/main.css" media="all" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<canvas id="mycanvas" width="800" height="600"></canvas>
+			<input id="myname" type="text" placeholder="input your name!" />
+		</div>
+		
+		<script type="text/javascript" src="./js/easeljs.js"></script>
+		<script type="text/javascript" src="./js/preloadjs.js"></script>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="./js/global.js"></script>
+		<script type="text/javascript" src="./js/game.js"></script>
+		<script type="text/javascript" src="./js/stage.js"></script>
+		<script type="text/javascript" src="./js/core.js"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+				gameInit();
+			}
+		</script>
+	</body>
+</html>
+ 

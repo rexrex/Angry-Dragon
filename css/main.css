@@ -1,0 +1,10 @@
+body {
+	background: #333333;
+}
+
+#wrapper {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
