@@ -70,7 +70,7 @@
 	
 		socket.emit('serverAck', {isStart: isStart}); //服务端已连接，发送确认
 		socket.on('allRight', function(data){
-			if(isStart) return; //防止修改前端脚本的攻击，XSS攻击
+			if(isStart) return; 
 			allRight = true;
 			owner = players.length==0 ? data.playerName : owner;
 			socketName = data.playerName;
